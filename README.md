@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Acquire PV generation data of [2 eco-Kinetics, 26.5kW, mono-Si, Dual, 2010](https://dkasolarcentre.com.au/source/alice-springs/dka-m11-3-phase)
+1. Acquire PV generation data from [2 eco-Kinetics, 26.5kW, mono-Si, Dual, 2010](https://dkasolarcentre.com.au/source/alice-springs/dka-m11-3-phase)
 2. Run data preprocessing.
 3. Train and evaluate the CTNet-PV model.
 4. Analyze results using standard error metrics.
