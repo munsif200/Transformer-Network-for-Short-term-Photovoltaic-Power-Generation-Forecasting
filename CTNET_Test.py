@@ -4,14 +4,14 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 from math import sqrt
 from sklearn.metrics import mean_squared_error, mean_absolute_error, mean_absolute_percentage_error
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Flatten, LSTM, Conv1D, MaxPooling1D
 
 plt.rcParams["font.family"] = "Times New Roman"
 
 def transform_data(data_to_transform):
-    scaler = StandardScaler()
+    scaler = MinMaxScaler()
     scaler = scaler.fit(data_to_transform)
     trans_data = scaler.transform(data_to_transform)
     return trans_data
