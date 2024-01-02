@@ -47,4 +47,4 @@ BibTeX:
 }
 ```
 ## Contact Info
-If you have any questions related to this repo please contact me at Email: **munsif3797@gmail.com** 
+If you have any question related to the repo please contact me at email: **munsif3797@gmail.com** 
