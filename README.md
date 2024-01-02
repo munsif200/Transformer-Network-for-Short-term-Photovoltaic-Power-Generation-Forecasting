@@ -28,5 +28,3 @@ pip install -r requirements.txt
 3. Train and evaluate the CTNet-PV model.
 4. Analyze results using standard error metrics.
 
-
-This project is licensed under the [MIT License](LICENSE).
