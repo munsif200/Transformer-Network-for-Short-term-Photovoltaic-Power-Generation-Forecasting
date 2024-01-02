@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
 import tensorflow as tf
 from tensorflow.keras.layers import Dense, Flatten, Conv1D, MaxPooling1D
 from tensorflow.keras import layers
@@ -14,7 +14,7 @@ training_df = pd.read_csv(r"Data\Training_78-Site_2-eco-Kinetics.csv", header=0,
 training_df = training_df.fillna(0)
 
 def transform_data(data_to_transform):
-    scaler = StandardScaler()
+    scaler = MinMaxScaler()
     scaler = scaler.fit(data_to_transform)
     trans_data = scaler.transform(data_to_transform)
     return trans_data
