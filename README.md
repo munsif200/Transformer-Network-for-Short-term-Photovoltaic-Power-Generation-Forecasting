@@ -9,7 +9,7 @@ The number of PV systems will increase rapidly in the future due to the policies
 Ensure you have the following dependencies installed:
 
 ```bash
-pip install tensorflow-estimator==2.4.0 and tensorflow-gpu==2.4.0
+pip install tensorflow-gpu==2.4.0 and tensorflow-estimator==2.4.0 
 ```
 ### Installation
 
