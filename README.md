@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 If you find this work helpful, please consider citing it:
 
-[Author 1], [Author 2], et al., "Transformer Network for Short-term Photovoltaic Power Generation Forecasting," Journal of Renewable Energy, 2023.
+[Muhammad Munsif] et al., "Transformer Network for Short-term Photovoltaic Power Generation Forecasting," Journal of Renewable Energy, 2023.
 
 BibTeX:
 
