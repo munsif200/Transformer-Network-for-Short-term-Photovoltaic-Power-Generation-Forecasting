@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 If you find this work helpful, please consider citing it:
 
-[Muhammad Munsif] et al., "Transformer Network for Short-term Photovoltaic Power Generation Forecasting," Journal of Renewable Energy, 2023.
+Muhammad Munsif et al., "CT-NET: A Novel Convolutional Transformer-Based Network for Short-Term Solar Energy Forecasting Using Climatic Information", Computer Systems Science \& Engineering, 2023.
 
 BibTeX:
 
